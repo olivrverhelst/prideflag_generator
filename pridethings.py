@@ -258,6 +258,7 @@ class GUI:
         identitet3 = self.var3.get()
 
         turtle.hideturtle()
+        turtle.speed(0)
         
         if identitet1 == 0 or identitet2 == 0 or identitet3 == 0:
             messagebox.showerror("Mistake", "You need to select a radiobutton for all of the three identities!")
